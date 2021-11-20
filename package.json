@@ -1,0 +1,28 @@
+{
+  "name": "ton-addr",
+  "version": "1.0.0",
+  "description": "Check addresses in EverScale blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeton20/ton-addr.git"
+  },
+  "keywords": [
+    "ton",
+    "everscale"
+  ],
+  "author": "freeton20",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freeton20/ton-addr/issues"
+  },
+  "homepage": "https://github.com/freeton20/ton-addr#readme",
+  "dependencies": {
+    "@tonclient/core": "^1.25.0",
+    "@tonclient/lib-node": "^1.25.0",
+    "tondev": "^0.10.5"
+  }
+}
