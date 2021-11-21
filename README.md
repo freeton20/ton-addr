@@ -62,7 +62,7 @@ Response:
 
 Request: 
 ```js
-const response = await isAddr("-1:efd5a14409a8a129686114fc092525fddd508f1ea56d1b649a3a695d3a5b188c");   
+const response = isAddr("-1:efd5a14409a8a129686114fc092525fddd508f1ea56d1b649a3a695d3a5b188c");   
 ```
 
 Response:
