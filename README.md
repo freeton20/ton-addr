@@ -25,9 +25,7 @@ npm i ton-addr
 Request:
 ```js
 const {accInfo} = require("ton-addr");
-accInfo("-1:7777777777777777777777777777777777777777777777777777777777777777").then(r => {
-    console.log(JSON.stringify(r,0,4))
-});
+const response = await accInfo("-1:7777777777777777777777777777777777777777777777777777777777777777");
 ```
 
 Response:
@@ -62,6 +60,15 @@ Response:
 ]
 ```
 
+Request: 
+```js
+const response = await isAddr("-1:efd5a14409a8a129686114fc092525fddd508f1ea56d1b649a3a695d3a5b188c");   
+```
+
+Response:
+```
+true
+```
 ## Author
 
 **freeton20**
