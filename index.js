@@ -28,8 +28,18 @@ async function accInfo(addr) {
         }
     })
 }
+
+function isAddr(addr){
+    if(addr.match(/(0|-1)(\:|\x)[abcdef\d]{64}/)){
+        return true;
+    }
+
+    return false;
+}
+
 module.exports = {
-    accInfo
+    accInfo,
+    isAddr
 }
 
 //accInfo("-1:7777777777777777777777777777777777777777777777777777777777777777").then(r => console.log(r))

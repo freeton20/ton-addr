@@ -1,6 +1,6 @@
 {
   "name": "ton-addr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check addresses in EverScale blockchain",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,8 @@
     "@tonclient/core": "^1.25.0",
     "@tonclient/lib-node": "^1.25.0",
     "tondev": "^0.10.5"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
   }
 }
